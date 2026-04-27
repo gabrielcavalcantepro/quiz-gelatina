@@ -2036,7 +2036,7 @@ src="https://www.facebook.com/tr?id=3932768297018445&ev=PageView&noscript=1"
       <div style="font-size:13px; color:var(--text-light); margin-bottom:16px; line-height:1.5;">
         Mirá ahora el video completo y descubrí el paso a paso del Protocolo de la Gelatina de Chía creado para <strong>tu perfil específico</strong>.
       </div>
-      <button class="btn-main cta-vsl" onclick="window.location.href='https://pay.hotmart.com/I105535133F?off=6x86vnw0&checkoutMode=10'">
+      <button class="btn-main cta-vsl" onclick="goTo('s-vsl2')">
   🎥 Ver mi protocolo ahora →
 </button>
     </div>
@@ -2069,7 +2069,7 @@ src="https://www.facebook.com/tr?id=3932768297018445&ev=PageView&noscript=1"
     <div id="vsl2-container" style="width:100%; max-width:400px; margin:0 auto 28px;"></div>
 
     <!-- Botão VSL 2  aparece após delay configurável via JS -->
-    <button class="btn-main cta-vsl" id="btn-vsl2" onclick="irParaVSL()" style="display:none;">
+    <button class="btn-main cta-vsl" id="btn-vsl2" onclick="window.location.href='https://pay.hotmart.com/I105535133F?off=6x86vnw0&checkoutMode=10&bid=1777317804856'" style="display:none;">
       🔥 Sí, Quiero Transformar Mi Cuerpo Ahora
     </button>
 
@@ -2343,8 +2343,8 @@ src="https://www.facebook.com/tr?id=3932768297018445&ev=PageView&noscript=1"
        90000  = 1 minuto e 30 segundos
        120000 = 2 minutos
   ════════════════════════════════════════ */
-  const VSL1_DELAY_MS = 112.000; // 1 minuto  altere este valor para mudar o delay do botão da VSL 1
-  const VSL2_DELAY_MS = 137.000; // 1 minuto  altere este valor para mudar o delay do botão da VSL 2
+  const VSL1_DELAY_MS = 112000; // 1 minuto  altere este valor para mudar o delay do botão da VSL 1
+  const VSL2_DELAY_MS = 137000; // 1 minuto  altere este valor para mudar o delay do botão da VSL 2
 
   let vsl1Timer = null;
   let vsl2Timer = null;
